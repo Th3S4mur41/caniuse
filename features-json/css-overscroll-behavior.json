@@ -79,7 +79,9 @@
       "111":"y",
       "112":"y",
       "113":"y",
-      "114":"y"
+      "114":"y",
+      "115":"y",
+      "116":"y"
     },
     "firefox":{
       "2":"n",
@@ -197,7 +199,11 @@
       "112":"y",
       "113":"y",
       "114":"y",
-      "115":"y"
+      "115":"y",
+      "116":"y",
+      "117":"y",
+      "118":"y",
+      "119":"y"
     },
     "chrome":{
       "4":"n",
@@ -312,7 +318,9 @@
       "114":"y",
       "115":"y",
       "116":"y",
-      "117":"y"
+      "117":"y",
+      "118":"y",
+      "119":"y"
     },
     "safari":{
       "3.1":"n",
@@ -447,7 +455,9 @@
       "96":"y",
       "97":"y",
       "98":"y",
-      "99":"y"
+      "99":"y",
+      "100":"y",
+      "101":"y"
     },
     "ios_saf":{
       "3.2":"n",
@@ -476,7 +486,7 @@
       "15.2-15.3":"n d #4",
       "15.4":"n d #4",
       "15.5":"n d #4",
-      "15.6":"n d #4",
+      "15.6-15.7":"n d #4",
       "16.0":"y",
       "16.1":"y",
       "16.2":"y",
@@ -499,7 +509,7 @@
       "4.2-4.3":"n",
       "4.4":"n",
       "4.4.3-4.4.4":"n",
-      "114":"y"
+      "116":"y"
     },
     "bb":{
       "7":"n",
@@ -515,17 +525,17 @@
       "73":"y"
     },
     "and_chr":{
-      "114":"y"
+      "116":"y"
     },
     "and_ff":{
-      "113":"y"
+      "116":"y"
     },
     "ie_mob":{
       "10":"a #1",
       "11":"a #1"
     },
     "and_uc":{
-      "13.4":"y"
+      "15.5":"y"
     },
     "samsung":{
       "4":"n",
@@ -565,8 +575,8 @@
     "3":"Incorrectly treats `none` as `contain` see [MDN](https://developer.mozilla.org/en-US/docs/Web/CSS/overscroll-behavior#Browser_compatibility) and [Edge 18 changelog](https://aka.ms/devguide_edgehtml_18)",
     "4":"Can be enabled in the \"Experimental Features\" developer menu"
   },
-  "usage_perc_y":91.12,
-  "usage_perc_a":0.39,
+  "usage_perc_y":91.41,
+  "usage_perc_a":0.42,
   "ucprefix":false,
   "parent":"",
   "keywords":"scroll-boundary-behavior,overscroll-behavior-x,overscroll-behavior-y,-ms-scroll-chaining",

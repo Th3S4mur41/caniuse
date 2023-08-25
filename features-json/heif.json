@@ -1,6 +1,6 @@
 {
-  "title":"HEIF/ISO Base Media File Format",
-  "description":"HEIF (High Efficiency Image File Format) is a standard developed by the Moving Picture Experts Group (MPEG) for storage and sharing of images and image sequences. Can use `.heif` or `.heic` file extensions.",
+  "title":"HEIF/HEIC image format",
+  "description":"A modern image format based on the [HEVC video format](/hevc). HEIC generally has better compression than [WebP](/webp), JPEG, PNG and GIF. It is hard for browsers to support HEIC because it is [complex and expensive to license](https://en.wikipedia.org/wiki/High_Efficiency_Video_Coding#Patent_licensing). [AVIF](/avif) and [JPEG XL](/jpegxl) provide free licenses and are designed to supersede HEIC.",
   "spec":"https://nokiatech.github.io/heif/technical.html",
   "status":"other",
   "links":[
@@ -75,7 +75,9 @@
       "111":"n",
       "112":"n",
       "113":"n",
-      "114":"n"
+      "114":"n",
+      "115":"n",
+      "116":"n"
     },
     "firefox":{
       "2":"n",
@@ -193,7 +195,11 @@
       "112":"n",
       "113":"n",
       "114":"n",
-      "115":"n"
+      "115":"n",
+      "116":"n",
+      "117":"n",
+      "118":"n",
+      "119":"n"
     },
     "chrome":{
       "4":"n",
@@ -308,7 +314,9 @@
       "114":"n",
       "115":"n",
       "116":"n",
-      "117":"n"
+      "117":"n",
+      "118":"n",
+      "119":"n"
     },
     "safari":{
       "3.1":"n",
@@ -443,7 +451,9 @@
       "96":"n",
       "97":"n",
       "98":"n",
-      "99":"n"
+      "99":"n",
+      "100":"n",
+      "101":"n"
     },
     "ios_saf":{
       "3.2":"n",
@@ -472,7 +482,7 @@
       "15.2-15.3":"n #1",
       "15.4":"n #1",
       "15.5":"n #1",
-      "15.6":"n #1",
+      "15.6-15.7":"n #1",
       "16.0":"n #1",
       "16.1":"n #1",
       "16.2":"n #1",
@@ -495,7 +505,7 @@
       "4.2-4.3":"n",
       "4.4":"n",
       "4.4.3-4.4.4":"n",
-      "114":"n"
+      "116":"n"
     },
     "bb":{
       "7":"n",
@@ -511,17 +521,17 @@
       "73":"n"
     },
     "and_chr":{
-      "114":"n"
+      "116":"n"
     },
     "and_ff":{
-      "113":"n"
+      "116":"n"
     },
     "ie_mob":{
       "10":"n",
       "11":"n"
     },
     "and_uc":{
-      "13.4":"n"
+      "15.5":"n"
     },
     "samsung":{
       "4":"n",
@@ -556,13 +566,13 @@
   },
   "notes":"",
   "notes_by_num":{
-    "1":"While supported natively since macOS 10.13 High Sierra and iOS 11, the file format does not appear to be supported in Safari."
+    "1":"Was supported natively in macOS/iOS, but was not supported in Safari."
   },
-  "usage_perc_y":0,
+  "usage_perc_y":0.08,
   "usage_perc_a":0,
   "ucprefix":false,
   "parent":"",
-  "keywords":"heic",
+  "keywords":"heic,hevc",
   "ie_id":"",
   "chrome_id":"",
   "firefox_id":"",

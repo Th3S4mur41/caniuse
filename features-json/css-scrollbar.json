@@ -89,7 +89,9 @@
       "111":"a x #2",
       "112":"a x #2",
       "113":"a x #2",
-      "114":"a x #2"
+      "114":"a x #2",
+      "115":"a x #2",
+      "116":"a x #2"
     },
     "firefox":{
       "2":"n",
@@ -207,7 +209,11 @@
       "112":"y #6",
       "113":"y #6",
       "114":"y #6",
-      "115":"y #6"
+      "115":"y #6",
+      "116":"y #6",
+      "117":"y #6",
+      "118":"y #6",
+      "119":"y #6"
     },
     "chrome":{
       "4":"a x #2",
@@ -322,7 +328,9 @@
       "114":"a x #2",
       "115":"a x #2",
       "116":"a x #2",
-      "117":"a x #2"
+      "117":"a x #2",
+      "118":"a x #2",
+      "119":"a x #2"
     },
     "safari":{
       "3.1":"u",
@@ -457,7 +465,9 @@
       "96":"a x #2",
       "97":"a x #2",
       "98":"a x #2",
-      "99":"a x #2"
+      "99":"a x #2",
+      "100":"a x #2",
+      "101":"a x #2"
     },
     "ios_saf":{
       "3.2":"u",
@@ -486,7 +496,7 @@
       "15.2-15.3":"n",
       "15.4":"n",
       "15.5":"n",
-      "15.6":"n",
+      "15.6-15.7":"n",
       "16.0":"n",
       "16.1":"n",
       "16.2":"n",
@@ -509,7 +519,7 @@
       "4.2-4.3":"a x #2",
       "4.4":"a x #2",
       "4.4.3-4.4.4":"a x #2",
-      "114":"a x #2"
+      "116":"a x #2"
     },
     "bb":{
       "7":"a x #2",
@@ -525,17 +535,17 @@
       "73":"a x #2"
     },
     "and_chr":{
-      "114":"a x #2"
+      "116":"a x #2"
     },
     "and_ff":{
-      "113":"y #6"
+      "116":"y #6"
     },
     "ie_mob":{
       "10":"n",
       "11":"n"
     },
     "and_uc":{
-      "13.4":"a x #2"
+      "15.5":"a x #2"
     },
     "samsung":{
       "4":"a x #2",
@@ -577,8 +587,8 @@
     "5":"Firefox 63 supported scrollbar-face-color and scrollbar-track-color separate properties (now dropped from the spec) instead of unified scrollbar-color property.",
     "6":"Firefox neither supports `light` and `dark` values of scrollbar-color nor `<length>` values of scrollbar width"
   },
-  "usage_perc_y":2.55,
-  "usage_perc_a":80.83,
+  "usage_perc_y":2.58,
+  "usage_perc_a":80.33,
   "ucprefix":false,
   "parent":"",
   "keywords":"scrollbar-button,scrollbar-track,scrollbar-thumb,scrollbar-base-color,scrollbar-face-color,scrollbar-color,scrollbar-width",
